@@ -1,26 +1,257 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b040c;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(11, 4, 12, 0.9);
+  padding: 20px 32px;
+  z-index: 40;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-logo span {
+  color: #6f1cd7;
+}
+
+.navbar-logo::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -5px;
+  left: 0;
+  background-color: #6f1cd7;
+  transition: width 0.3s ease;
+}
+
+.navbar-logo:hover::before {
+  width: 100%;
+}
+
+.navbar-github {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff99;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-github:hover {
+  color: #ffffff;
+}
+
+.navbar-github svg {
+  width: 26px;
+  height: 26px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-github:hover svg {
+  opacity: 1;
+}
+
+.navbar-github p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Hero styles */
+.hero {
+  padding: 100px 38px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(to right, #6f1cd7, #cffaff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #6f1cd7;
+}
+
+.hero-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: #ffffff;
+}
+
+.hero-text p {
+  font-size: 15px;
+  color: #ffffff99;
+  max-width: 353px;
+  margin-top: 45px;
+  line-height: 1.8;
+}
+
+.hero-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+  color: #f0feff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.hero-bio p {
+  max-width: 310px;
+}
+
+.hero-socials {
+  display: flex;
+  gap: 26px;
+  margin-top: 35px;
+}
+
+.hero-socials a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #6f1cd7;
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+}
+
+.hero-socials a:hover {
+  background-color: #ffffff;
+}
+
+.hero-socials svg {
+  width: 24px;
+  height: 24px;
+  fill: #6f1cd7;
+}
+
+.hero-image {
+  margin-top: 40px;
+  position: relative;
+}
+
+.hero-image-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.hero-image-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 3px;
+  right: 4px;
+  object-fit: cover;
+}
+
+.hero-image-border {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #6f1cd7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 30px 80px;
+  }
+  .navbar-logo {
+    font-size: 25px;
+  }
+  .navbar-github {
+    gap: 10px;
+  }
+  .navbar-github svg {
+    width: 32px;
+    height: 32px;
+  }
+  .navbar-github p {
+    font-size: 18px;
+  }
+  .hero {
+    padding: 120px 80px 0;
+  }
+  .hero-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 18px;
+    max-width: 639px;
+  }
+  .hero-bio {
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 45px;
+  }
+  .hero-bio p {
+    max-width: 319px;
+  }
+  .hero-socials {
+    margin-top: 65px;
+  }
+  .hero-image-container {
+    width: 400px;
+    height: 400px;
+  }
+  .hero-image-container img {
+    bottom: 10px;
+    right: 12px;
+  }
+  .hero-image-border {
+    width: 400px;
+    height: 400px;
+  }
 }
