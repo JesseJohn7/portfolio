@@ -10,7 +10,7 @@ const Navbar = () => {
           Jesse John
         </Link>
         <Link
-          href="https://github.com/jessejohn"
+          href="https://github.com/JesseJohn7"
           target="_blank"
           rel="noreferrer"
           className="navbar-github"
