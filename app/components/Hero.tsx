@@ -16,10 +16,10 @@ const Hero = () => {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <h1>
-            10x <span>Software</span>
+            10x Software
           </h1>
-          <h2>Developer</h2>
-          <p>
+          <h2>Developer.</h2>
+          <p className="sub-text">
             Creating innovative solutions and captivating designs. Problem Solver.
           </p>
 
