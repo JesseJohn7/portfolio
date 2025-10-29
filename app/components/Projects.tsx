@@ -7,13 +7,13 @@ const projectsData = [
   {
     title: 'Flexvest',
     description: 'Flexvest is a platform that helps users beat inflation and excessive bank charges by helping them save in stablecoins.',
-    image: '/images/flexvest.png', // <-- Replace with your image path
-    link: 'https://jessejohn7.github.io/Flex_vest/', // <-- Replace with project link
+    image: '/images/flex.png',
+    link: 'https://jessejohn7.github.io/Flex_vest/',
   },
   {
     title: 'Foodhub',
     description: 'Foodhub is a platform that connects users with local restaurants and food providers.',
-    image: '/images/Foodhub.png',
+    image: '/images/foodhub.png',
     link: 'https://jessejohn7.github.io/Foodhub/',
   },
   {
@@ -53,7 +53,6 @@ export default function Projects() {
         viewport={{ once: true }}
       >
         <h2>Projects</h2>
-    
       </motion.div>
 
       <motion.div
@@ -77,11 +76,12 @@ export default function Projects() {
             transition={{ duration: 0.6 }}
           >
             <div className="project-image">
+              {/* ✅ Updated Image to fill parent container */}
               <Image
                 src={project.image}
                 alt={project.title}
-                width={400}
-                height={250}
+                fill
+                style={{ objectFit: 'cover' }}
                 className="project-img"
               />
             </div>
