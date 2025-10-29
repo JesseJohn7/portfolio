@@ -76,11 +76,11 @@ export default function Projects() {
             transition={{ duration: 0.6 }}
           >
             <div className="project-image">
-              {/* ✅ Updated Image to fill parent container */}
               <Image
                 src={project.image}
                 alt={project.title}
                 fill
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                 style={{ objectFit: 'cover' }}
                 className="project-img"
               />
