@@ -13,7 +13,7 @@ const projectsData = [
   {
     title: 'Foodhub',
     description: 'Foodhub is a platform that connects users with local restaurants and food providers.',
-    image: '/images/foodhub.png',
+    image: '/images/food.png',
     link: 'https://jessejohn7.github.io/Foodhub/',
   },
   {

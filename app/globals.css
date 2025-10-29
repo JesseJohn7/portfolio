@@ -169,14 +169,14 @@ body {
 }
 
 .hero-socials a:hover {
-  background-color: #6f1cd7;
+  background-color: #fafafa;
   transform: scale(1.05);
 }
 
 .hero-socials svg {
   width: 18px;
   height: 18px;
-  fill: #fff;
+  fill: #6f1cd7;
 }
 
 /* HERO IMAGE */
