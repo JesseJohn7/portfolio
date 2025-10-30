@@ -169,14 +169,14 @@ body {
 }
 
 .hero-socials a:hover {
-  background-color: #fafafa;
+  background-color: #6f1cd7;
   transform: scale(1.05);
 }
 
 .hero-socials svg {
   width: 18px;
   height: 18px;
-  fill: #6f1cd7;
+  fill: #fdfdfd;
 }
 
 /* HERO IMAGE */
@@ -510,13 +510,14 @@ body {
 .skills-container {
   max-width: 1100px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .skills-heading {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   letter-spacing: 0.5px;
+  font-weight: 900;
 }
 
 .skills-sub {
@@ -581,5 +582,184 @@ body {
   .skill-icon {
     width: 28px;
     height: 28px;
+  }
+}
+
+
+/* Experience Section — Clean and Left-Aligned */
+
+.experience {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6rem 1rem;
+  color: #f2f2f2;
+}
+
+.experience-heading {
+  font-size: 2.0rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-align: left;
+  position: relative;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+  padding-left: 2rem;
+}
+
+.experience-item {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: -2.1rem;
+  top: 0.6rem;
+  width: 10px;
+  height: 10px;
+  background-color: #6f1cd7;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(4, 19, 36, 0.6);
+}
+
+.experience-meta {
+  margin-bottom: 1rem;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: #aaa;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.experience-role {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: #6f1cd7;
+  margin-bottom: 0.8rem;
+}
+
+.experience-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-details li {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #d4d4d4;
+  margin-bottom: 0.4rem;
+}
+
+/* Hover accent for role */
+.experience-item:hover .experience-role {
+  color: #e4eaf1;
+  transition: color 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience {
+    padding: 4rem 1rem;
+  }
+.experience-heading {
+  font-size: 30px;
+}
+  .experience-list {
+    border-left: 1.5px solid rgba(255, 255, 255, 0.1);
+    padding-left: 1.5rem;
+  }
+
+  .experience-role {
+    font-size: 1.15rem;
+  }
+}
+
+/* CONTACT SECTION STYLES */
+.contact-section {
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: #0b0b0c;
+  color: #fff;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.contact-subtext {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+  color: #00bcd4;
+  transform: translateY(-3px);
+}
+
+.footer {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .contact-heading {
+    font-size: 1.6rem;
+  }
+
+  .contact-subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .social-link {
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    font-size: 0.85rem;
   }
 }
