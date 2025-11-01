@@ -389,7 +389,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #fff; /* ensure text is visible */
-  transition: transform 0.3s ease, background 0.3s ease;
+  transition: transform 0.1s ease, background 0.1s ease;
   cursor: pointer;
 }
 

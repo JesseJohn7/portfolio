@@ -30,9 +30,9 @@ export default function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <a href="mailto:jessejohn260@gmail.com" className="social-link">
+      {/*   <a href="mailto:jessejohn260@gmail.com" className="social-link">
           <FaEnvelope /> jessejohn260@gmail.com
-        </a>
+        </a> */}
         <a
           href="https://github.com/JesseJohn7"
           target="_blank"

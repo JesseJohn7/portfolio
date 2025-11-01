@@ -20,19 +20,19 @@ const Hero = () => {
           </h1>
           <h2>Developer.</h2>
           <p className="sub-text">
-            Creating innovative solutions and captivating designs. Problem Solver.
+            Creating innovative solutions and captivating designs.
           </p>
 
           <div className="hero-bio">
             <p>
-              I’m Jesse John with 3+ years of experience specializing in Web Development, Blockchain Development.
+              I’m Jesse John with 3+ years of experience specializing in Software Development, Blockchain Development.
             </p>
             <p>CEO of Flexvest, Self-taught programmer with proven experience in building live projects, and Active tech content creator.</p>
           </div>
           
           <div className="hero-socials">
             <motion.a
-              href="https://www.facebook.com/JesseJohn"
+              href="https://web.facebook.com/profile.php?id=100085129903427"
               target="_blank"
               rel="noreferrer"
               whileTap={{ scale: 1.1 }}
@@ -49,7 +49,7 @@ const Hero = () => {
             >
               <TwIcon />
             </motion.a>
-            <motion.a
+          {/*  <motion.a
               href="https://www.instagram.com/Jesse John"
               target="_blank"
               rel="noreferrer"
@@ -57,8 +57,8 @@ const Hero = () => {
               whileHover={{ scale: 0.95 }}
             >
               <IgIcon />
-            </motion.a>
-            <motion.a
+            </motion.a> */}
+          {/*  <motion.a
               href="https://ng.linkedin.com/in/JesseJohn"
               target="_blank"
               rel="noreferrer"
@@ -66,7 +66,7 @@ const Hero = () => {
               whileHover={{ scale: 0.95 }}
             >
               <InIcon />
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
 

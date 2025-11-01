@@ -22,11 +22,7 @@ const servicesData = [
     description:
     'Implementing version control systems like Git to manage and track changes in your projects.',
 },
-{
-    title: 'CONTINUOUS LEARNING',
-    description:
-    'Staying updated with the latest industry trends and technologies to provide cutting-edge solutions.',
-},
+
 {
     title: 'API INTEGRATION',
     description:

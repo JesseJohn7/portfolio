@@ -59,7 +59,7 @@ export default function Projects() {
         className="projects-grid"
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.2 }}
         variants={{
           hidden: {},
           show: { transition: { staggerChildren: 0.2 } },
