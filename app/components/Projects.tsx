@@ -29,6 +29,18 @@ const projectsData = [
     link: 'https://opencut.app/',
   },
   {
+    title: 'Naija Codes',
+    description: 'Naija Quick Codes lets you instantly find and dial all Nigerian network and bank USSD codes in one place.',
+    image: '/images/Naijacodes.png',
+    link: 'https://naija-codes.vercel.app/',
+  },
+    {
+    title: 'Crypto Price Tracker',
+    description: 'A web app that tracks real-time prices of various cryptocurrencies using CoinGecko API.',
+    image: '/images/cryptotrack.png',
+    link: 'https://v0-crypto-price-tracker-dusky.vercel.app/',
+  },
+  {
     title: 'Tictac-toe',
     description: 'A simple Tic Tac Toe to play with friends.',
     image: '/images/tictac.png',
@@ -54,7 +66,7 @@ export default function Projects() {
       >
         <h2>Projects</h2>
       </motion.div>
-
+      
       <motion.div
         className="projects-grid"
         initial="hidden"
