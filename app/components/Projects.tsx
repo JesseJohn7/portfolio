@@ -17,16 +17,22 @@ const projectsData = [
     link: 'https://jessejohn7.github.io/Foodhub/',
   },
   {
+    title: 'Gabriel Adikwu Chambers',
+    description: 'Website for a law firm based in Yola, Nigeria.',
+    image: '/images/adikwu.png',
+    link: 'https://www.gabrieladikwuchambers.com/',
+  },
+    {
+    title: 'Moviemate',
+    description: 'A movie discovery app that allows users to search for movies, view details, and get recommendations based on their preferences.',
+    image: '/images/moviemate.png',
+    link: 'https://moviemate-blue.vercel.app/',
+  },
+  {
     title: 'Cgpa Calculator',
     description: 'A sleek CGPA calculator that helps students easily compute their semester and cumulative GPA with accurate results and a modern interface',
     image: '/images/Gpa-cal.png',
     link: 'https://gpa-calculator-tau-eight.vercel.app/',
-  },
-  {
-    title: 'Opencut',
-    description: 'Opencut is a platform that allows users to easily edit and share their videos online.',
-    image: '/images/opencut.png',
-    link: 'https://opencut.app/',
   },
   {
     title: 'Naija Codes',
@@ -34,11 +40,24 @@ const projectsData = [
     image: '/images/Naijacodes.png',
     link: 'https://naija-codes.vercel.app/',
   },
-    {
-    title: 'Crypto Price Tracker',
-    description: 'A web app that tracks real-time prices of various cryptocurrencies using CoinGecko API.',
-    image: '/images/cryptotrack.png',
-    link: 'https://v0-crypto-price-tracker-dusky.vercel.app/',
+  {
+  title: 'Crypto Price Tracker',
+  description: 'A web app that tracks real-time prices of various cryptocurrencies using CoinGecko API.',
+  image: '/images/cryptotrack.png',
+  link: 'https://v0-crypto-price-tracker-dusky.vercel.app/',
+},
+
+  {
+  title: 'Lagos Health Navigator',
+  description: ' A healthcare platform connecting patients with medical professionals and facilities in Lagos.',
+  image: '/images/lagos.png',
+  link: 'https://lagos-health-navigator-phi.vercel.app/',
+},
+  {
+    title: 'Opencut',
+    description: 'Opencut is a platform that allows users to easily edit and share their videos online.',
+    image: '/images/opencut.png',
+    link: 'https://opencut.app/',
   },
   {
     title: 'Tictac-toe',
