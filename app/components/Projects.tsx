@@ -22,7 +22,7 @@ const projectsData = [
     image: '/images/adikwu.png',
     link: 'https://www.gabrieladikwuchambers.com/',
   },
-    {
+  {
     title: 'Moviemate',
     description: 'A movie discovery app that allows users to search for movies, view details, and get recommendations based on their preferences.',
     image: '/images/moviemate.png',
@@ -41,18 +41,17 @@ const projectsData = [
     link: 'https://naija-codes.vercel.app/',
   },
   {
-  title: 'Crypto Price Tracker',
-  description: 'A web app that tracks real-time prices of various cryptocurrencies using CoinGecko API.',
-  image: '/images/cryptotrack.png',
-  link: 'https://v0-crypto-price-tracker-dusky.vercel.app/',
-},
-
+    title: 'Crypto Price Tracker',
+    description: 'A web app that tracks real-time prices of various cryptocurrencies using CoinGecko API.',
+    image: '/images/cryptotrack.png',
+    link: 'https://v0-crypto-price-tracker-dusky.vercel.app/',
+  },
   {
-  title: 'Lagos Health Navigator',
-  description: ' A healthcare platform connecting patients with medical professionals and facilities in Lagos.',
-  image: '/images/lagos.png',
-  link: 'https://lagos-health-navigator-phi.vercel.app/',
-},
+    title: 'Lagos Health Navigator',
+    description: 'A healthcare platform connecting patients with medical professionals and facilities in Lagos.',
+    image: '/images/lagos.png',
+    link: 'https://lagos-health-navigator-phi.vercel.app/',
+  },
   {
     title: 'Opencut',
     description: 'Opencut is a platform that allows users to easily edit and share their videos online.',
@@ -76,37 +75,32 @@ const projectsData = [
 export default function Projects() {
   return (
     <section className="projects-section" id="projects">
+      {/* Header - show immediately */}
       <motion.div
         className="projects-header"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
-        viewport={{ once: true }}
+        initial={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0 }}
       >
         <h2>Projects</h2>
       </motion.div>
-      
+
+      {/* Projects Grid - visible instantly */}
       <motion.div
         className="projects-grid"
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.2 }}
-        variants={{
-          hidden: {},
-          show: { transition: { staggerChildren: 0.2 } },
-        }}
+        initial={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0 }}
       >
         {projectsData.map((project, index) => (
           <motion.div
             key={index}
             className="project-card"
-            variants={{
-              hidden: { opacity: 0, y: 50 },
-              show: { opacity: 1, y: 0 },
-            }}
-            transition={{ duration: 0.6 }}
+            initial={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0 }}
           >
-            <div className="project-image">
+            <div className="project-image relative w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-2xl shadow-md">
               <Image
                 src={project.image}
                 alt={project.title}
@@ -114,16 +108,17 @@ export default function Projects() {
                 sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                 style={{ objectFit: 'cover' }}
                 className="project-img"
+                priority // ✅ ensures images load instantly, helps mobile render properly
               />
             </div>
-            <div className="project-content">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+            <div className="project-content mt-4">
+              <h3 className="font-semibold text-lg">{project.title}</h3>
+              <p className="text-sm text-gray-600 mt-2">{project.description}</p>
               <a
                 href={project.link}
                 target="_blank"
                 rel="noreferrer"
-                className="project-link"
+                className="project-link inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mt-3 transition-colors duration-200"
               >
                 View Project <FiArrowRight className="arrow-icon" />
               </a>

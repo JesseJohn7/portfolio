@@ -51,7 +51,7 @@ return (
         >
           Technologies and tools I work with.
         </motion.p>
-
+        
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <motion.div
