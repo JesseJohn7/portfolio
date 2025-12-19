@@ -10,6 +10,8 @@ SiGit,
 SiGithub,
 SiWeb3Dotjs,
 SiVercel,
+SiFramer, 
+SiClerk,
 } from "react-icons/si";
 
 interface Skill {
@@ -26,6 +28,9 @@ const skills: Skill[] = [
 { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
 { name: "Web3.js", icon: <SiWeb3Dotjs color="#f16822" size={34} /> },
 { name: "Vercel", icon: <SiVercel color="#ffffff" size={34} /> },
+{ name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
+{ name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
+
 ];
 
 const Skill: React.FC = () => {
