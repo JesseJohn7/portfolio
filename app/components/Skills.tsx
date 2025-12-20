@@ -26,7 +26,7 @@ const skills: Skill[] = [
 { name: "TypeScript", icon: <SiTypescript color="#3178c6" size={34} /> },
 { name: "React", icon: <SiReact color="#61dafb" size={34} /> },
 { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
-{ name: "Tailwind Cs", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
+{ name: "Tailwind Css", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
 { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
 { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
 { name: "Web3.js", icon: <SiWeb3Dotjs color="#f16822" size={34} /> },
