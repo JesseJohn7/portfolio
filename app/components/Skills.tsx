@@ -26,7 +26,7 @@ const skills: Skill[] = [
 { name: "TypeScript", icon: <SiTypescript color="#3178c6" size={34} /> },
 { name: "React", icon: <SiReact color="#61dafb" size={34} /> },
 { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
-{ name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
+{ name: "Tailwind C", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
 { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
 { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
 { name: "Web3.js", icon: <SiWeb3Dotjs color="#f16822" size={34} /> },
@@ -34,7 +34,6 @@ const skills: Skill[] = [
 { name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
 { name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
 { name: "GSAP", icon: <FaWaveSquare color="#88ce02" size={34} /> },
-
 ];
 
 const Skill: React.FC = () => {
