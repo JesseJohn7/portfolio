@@ -33,7 +33,7 @@ const skills: Skill[] = [
 { name: "Vercel", icon: <SiVercel color="#ffffff" size={34} /> },
 { name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
 { name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
-{ name: "GSA", icon: <FaWaveSquare color="#88ce02" size={34} /> },
+{ name: "GSAP", icon: <FaWaveSquare color="#88ce02" size={34} /> },
 ];
 
 const Skill: React.FC = () => {
