@@ -38,7 +38,7 @@ const Hero = () => {
               whileTap={{ scale: 1.1 }}
               whileHover={{ scale: 0.95 }}
             >
-              <FbIcon />
+              <FbIcon /> 
             </motion.a>
             <motion.a
               href="https://x.com/Jesse_can_code"

@@ -15,6 +15,7 @@ SiClerk,
 SiTailwindcss,
 } from "react-icons/si";
 import { FaWaveSquare } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 
 interface Skill {
 name: string;
@@ -26,6 +27,7 @@ const skills: Skill[] = [
 { name: "TypeScript", icon: <SiTypescript color="#3178c6" size={34} /> },
 { name: "React", icon: <SiReact color="#61dafb" size={34} /> },
 { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
+{ name: "Node.js", icon: <FaNodeJs color="#68A063" size={34} /> },
 { name: "Tailwind Css", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
 { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
 { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
