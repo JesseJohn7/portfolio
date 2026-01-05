@@ -65,7 +65,7 @@ export default function Contact() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
-        © {new Date().getFullYear()} Jesse John. All rights reserved.
+        © {new Date().getFullYear()} Billionaire Dev. All rights reserved.
       </motion.footer>
     </section>
   );
