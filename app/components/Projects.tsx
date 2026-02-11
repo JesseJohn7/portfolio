@@ -8,7 +8,7 @@ const projectsData = [
     title: 'Flexvest',
     description: 'Flexvest is a platform that helps users beat inflation and excessive bank charges by helping them save in stablecoins.',
     image: '/images/flex.png',
-    link: 'https://jessejohn7.github.io/Flex_vest/',
+    link: 'https://flexvest.vercel.app/',
   },
   {
     title: 'Moviemate',
