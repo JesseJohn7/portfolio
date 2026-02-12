@@ -11,6 +11,12 @@ const projectsData = [
     link: 'https://flexvest.vercel.app/',
   },
   {
+  title: 'Sabiskill',
+  description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
+  image: '/images/sabi.png',
+  link: 'https://sabiskill.vercel.app/',
+},
+  {
     title: 'Moviemate',
     description: 'A movie discovery app that allows users to search for movies, view details, and get recommendations based on their preferences.',
     image: '/images/moviemate.png',
