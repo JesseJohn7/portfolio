@@ -32,7 +32,7 @@ const skills: Skill[] = [
   { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
   { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
   { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
-  { name: "Firebase", icon: <SiFirebase color="#FFCA28" size={34} /> },
+  { name: "Firebase", icon: <SiFirebase color="#FFA000" size={34} /> },
   { name: "Supabase", icon: <SiSupabase color="#3ECF8E" size={34} /> },
   { name: "Web3.js", icon: <SiWeb3Dotjs color="#f16822" size={34} /> },
   { name: "Vercel", icon: <SiVercel color="#ffffff" size={34} /> },
