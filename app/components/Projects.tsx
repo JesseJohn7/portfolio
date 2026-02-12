@@ -16,6 +16,18 @@ const projectsData = [
   image: '/images/sabi.png',
   link: 'https://sabiskill.vercel.app/',
 },
+{
+  title: 'Mojito',
+  description: 'Mjito Website with cocktail recipes and ingredients.',
+  image: '/images/Mojito.png',
+  link: 'https://mojito-dusky.vercel.app/',
+},
+{
+  title: 'Gabriel Adikwu Chambers',
+  description: 'Website for a law firm based in Yola, Nigeria.',
+  image: '/images/adikwu.png',
+  link: 'https://www.gabrieladikwuchambers.com/',
+},
   {
     title: 'Moviemate',
     description: 'A movie discovery app that allows users to search for movies, view details, and get recommendations based on their preferences.',
@@ -23,22 +35,10 @@ const projectsData = [
     link: 'https://moviemate-blue.vercel.app/',
   },
   {
-    title: 'Mojito',
-    description: 'Mjito Website with cocktail recipes and ingredients.',
-    image: '/images/Mojito.png',
-    link: 'https://mojito-dusky.vercel.app/',
-  },
-  {
     title: 'Foodhub',
     description: 'Foodhub is a platform that connects users with local restaurants and food providers.',
     image: '/images/food.png',
     link: 'https://jessejohn7.github.io/Foodhub/',
-  },
-  {
-    title: 'Gabriel Adikwu Chambers',
-    description: 'Website for a law firm based in Yola, Nigeria.',
-    image: '/images/adikwu.png',
-    link: 'https://www.gabrieladikwuchambers.com/',
   },
   {
     title: 'Cgpa Calculator',
