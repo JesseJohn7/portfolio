@@ -25,7 +25,7 @@ const Hero = () => {
 
           <div className="hero-bio">
             <p>
-              I’m Jesse John with 3+ years of experience specializing in Software Development, Blockchain Development.
+              I’m Jesse John with 4+ years of experience specializing in Software Development, Blockchain Development.
             </p>
             <p>CEO of Flexvest, Self-taught programmer with proven experience in building live projects, and Active tech content creator.</p>
           </div>
