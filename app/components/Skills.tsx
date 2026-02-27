@@ -39,6 +39,7 @@ const skills: Skill[] = [
   { name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
   { name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
   { name: "GSAP", icon: <FaWaveSquare color="#88ce02" size={34} /> },
+  { name: "Python", icon: <FaPython color="#3776AB" size={34} /> },
 ];
 
 const Skill: React.FC = () => {
