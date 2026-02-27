@@ -16,8 +16,7 @@ import {
   SiFirebase,
   SiSupabase,
 } from "react-icons/si";
-import { FaWaveSquare, FaNodeJs } from "react-icons/fa";
-import { FaPython, FaWaveSquare } from "react-icons/fa";
+import { FaWaveSquare, FaNodeJs, FaPython } from "react-icons/fa"; // 🐍 Added FaPython here
 
 interface Skill {
   name: string;
@@ -30,6 +29,7 @@ const skills: Skill[] = [
   { name: "React", icon: <SiReact color="#61dafb" size={34} /> },
   { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
   { name: "Node.js", icon: <FaNodeJs color="#68A063" size={34} /> },
+  { name: "Python", icon: <FaPython color="#3776AB" size={34} /> }, // 🐍 Added Python skill
   { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
   { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
   { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
@@ -40,7 +40,6 @@ const skills: Skill[] = [
   { name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
   { name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
   { name: "GSAP", icon: <FaWaveSquare color="#88ce02" size={34} /> },
-  { name: "Python", icon: <FaPython color="#3776AB" size={34} /> },
 ];
 
 const Skill: React.FC = () => {
