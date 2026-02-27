@@ -17,6 +17,7 @@ import {
   SiSupabase,
 } from "react-icons/si";
 import { FaWaveSquare, FaNodeJs } from "react-icons/fa";
+import { FaPython, FaWaveSquare } from "react-icons/fa";
 
 interface Skill {
   name: string;
