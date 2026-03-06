@@ -79,7 +79,7 @@ const Hero = () => {
         >
           <div className="hero-image-container">
             <Image
-              src="/images/dope.jpeg"
+              src="/images/pfp2.jpg"
               alt="Jesse John profile"
               width={400}
               height={400}
