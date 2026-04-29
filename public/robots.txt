@@ -1,0 +1,25 @@
+# Robots.txt file for Billionaire Dev - Jesse John's Portfolio
+# SEO Optimized for search engine crawling
+
+User-agent: *
+Allow: /
+Allow: /images/
+Disallow: /.next/
+Disallow: /node_modules/
+
+# Specific search engine rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://billionaire-dev.vercel.app/sitemap.xml
+Sitemap: https://billionaire-dev.vercel.app/sitemap.ts
