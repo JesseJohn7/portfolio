@@ -1,36 +1,208 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s a **clean, high-quality README** tailored specifically to your portfolio
+👉 Billionaire Dev Portfolio based on what’s actually on your site.
 
-## Getting Started
+---
 
-First, run the development server:
+# 🚀 Jesse John — Billionaire Dev Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to my personal portfolio.
+I’m a **Software Developer & Blockchain Engineer** focused on building innovative, scalable, and impactful digital solutions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Live Website:** [https://billionairedev.vercel.app/](https://billionairedev.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 About Me
 
-## Learn More
+I’m **Jesse John**, a self-taught developer with over **3+ years of experience** in software and blockchain development.
 
-To learn more about Next.js, take a look at the following resources:
+* Founder & CEO of **Flexvest**
+* Developer Relations @ Superteam NG
+* Passionate about building real-world products that solve real problems
+* Active tech content creator
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I specialize in creating **modern, high-performance applications** with a strong focus on user experience and scalability. ([Billionaire Dev][1])
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 What I Do
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* ⚡ Build scalable web applications
+* 🔗 Develop blockchain solutions & smart contracts
+* 🎨 Design clean and responsive user interfaces
+* 🔌 Integrate APIs and third-party services
+* 🚀 Optimize performance and user experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack
+
+**Languages & Frameworks**
+
+* JavaScript
+* TypeScript
+* React
+* Next.js
+* Node.js
+
+**Styling & Animation**
+
+* Tailwind CSS
+* Framer Motion
+* GSAP
+
+**Web3 & Tools**
+
+* Web3.js
+* Git & GitHub
+* Vercel
+* Clerk
+
+---
+
+## 📂 Featured Projects
+
+### 💰 Flexvest
+
+A platform that helps users **beat inflation and bank charges** by saving in stablecoins. ([Billionaire Dev][1])
+
+---
+
+### 🎬 Moviemate
+
+A movie discovery app that allows users to:
+
+* Search movies
+* View details
+* Get personalized recommendations ([Billionaire Dev][1])
+
+---
+
+### 🍹 Mojito
+
+A fun web experience showcasing cocktail recipes and ingredients. ([Billionaire Dev][1])
+
+---
+
+### 🍔 Foodhub
+
+A platform connecting users with restaurants and food providers. ([Billionaire Dev][1])
+
+---
+
+### ⚖️ Law Firm Websites
+
+* Gabriel Adikwu Chambers
+* Magna Curia Chambers
+
+Professional websites built for legal organizations. ([Billionaire Dev][1])
+
+---
+
+### 📊 CGPA Calculator
+
+A modern tool for students to calculate GPA easily and accurately. ([Billionaire Dev][1])
+
+---
+
+### 🇳🇬 Naija Codes
+
+Quick access to Nigerian USSD codes for banks and networks. ([Billionaire Dev][1])
+
+---
+
+### 📈 Crypto Price Tracker
+
+Tracks real-time cryptocurrency prices using APIs. ([Billionaire Dev][1])
+
+---
+
+### 🏥 Lagos Health Navigator
+
+Connects patients with healthcare providers in Lagos. ([Billionaire Dev][1])
+
+---
+
+## 💼 Services
+
+I provide professional digital solutions to help brands grow:
+
+* 🌐 Web Development
+* 📱 Responsive Design
+* 🔗 Blockchain Development
+* 🔄 Version Control Setup
+* 🔌 API Integration
+
+---
+
+## 💼 Experience
+
+### 🏢 Founder & CEO — Flexvest
+
+* Built and scaled a crypto-saving platform
+* Led product development using modern web tools
+* Improved performance and user experience
+
+---
+
+### 🌍 Developer Relations — Superteam NG
+
+* Built developer communities
+* Organized events and workshops
+* Promoted Web3 adoption
+
+---
+
+### 💻 Frontend Developer — AUN
+
+* Developed responsive UI with React
+* Improved performance and accessibility
+
+---
+
+### 🎓 Microsoft Student Ambassador
+
+* Led design initiatives
+* Improved digital engagement
+
+---
+
+## 🎯 Vision
+
+My goal is simple:
+
+> Build products that scale, impact lives, and compete globally.
+
+---
+
+## 🤝 Let’s Connect
+
+I’m open to:
+
+* Freelance projects
+* Collaborations
+* Internships & opportunities
+
+📧 Email: [your-email@example.com](mailto:your-email@example.com)
+🐦 Twitter/X: [https://twitter.com/Jesse_can_code](https://twitter.com/Jesse_can_code)
+💼 LinkedIn: your-linkedin
+
+---
+
+## ⭐ Support
+
+If you like my work:
+
+* ⭐ Star this repo
+* 🔁 Share it
+* 🤝 Let’s collaborate
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+
+
+[1]: https://billionairedev.vercel.app/?utm_source=chatgpt.com "Billionaire Dev — Portfolio of Jesse John"
