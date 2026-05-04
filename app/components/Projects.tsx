@@ -18,7 +18,7 @@ const projectsData = [
 },
   {
   title: 'Readify',
-  description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
+  description: 'An Ai Powered Readme Generator that creates comprehensive README files for GitHub projects based on user input and project details.',
   image: '/images/readify.png',
   link: 'https://readify-delta.vercel.app/',
 },
