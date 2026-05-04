@@ -1,36 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Jesse John is a software developer and blockchain engineer focused on building scalable, high-performance digital products. With over three years of experience, he specializes in frontend development, modern web technologies, and Web3 solutions. He is the founder and CEO of Flexvest, a platform designed to help users save and protect their money using stablecoins, and he also serves as a Developer Relations contributor at Superteam NG where he supports developer communities and promotes Web3 adoption.
 
-## Getting Started
+He has worked on a range of projects including web applications, fintech platforms, and user-focused tools such as movie discovery apps, crypto trackers, and productivity solutions. His work emphasizes clean user interfaces, responsive design, performance optimization, and real-world impact. Jesse combines technical skill with product thinking to build solutions that are both functional and engaging.
 
-First, run the development server:
+His core stack includes JavaScript, TypeScript, React, Next.js, Node.js, and modern styling tools like Tailwind CSS along with animation libraries such as Framer Motion and GSAP. He also works with APIs, cloud deployment platforms like Vercel, and Web3 technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Beyond development, Jesse is driven by a vision to build globally competitive products that solve meaningful problems. He is open to freelance work, collaborations, and professional opportunities where he can contribute his skills and continue growing as a developer.
