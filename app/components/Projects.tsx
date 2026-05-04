@@ -16,6 +16,12 @@ const projectsData = [
   image: '/images/sabi.png',
   link: 'https://sabiskill.vercel.app/',
 },
+  {
+  title: 'Readify',
+  description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
+  image: '/images/readify.png',
+  link: 'https://readify-delta.vercel.app/',
+},
 {
   title: 'Mojito',
   description: 'Mjito Website with cocktail recipes and ingredients.',
