@@ -3,6 +3,16 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "IT Professional",
+    company: "Toko Academy",
+    duration: "February 2026 – April 2026",
+    details: [
+      "Provided IT support and software development services across the academy's digital operations.",
+      "Built and maintained internal software tools to streamline academic and administrative workflows.",
+      "Collaborated with staff to identify technical needs and deliver effective software solutions.",
+    ],
+  },
+  {
     role: "Founder & CEO",
     company: "Flexvest.",
     duration: "June 2025 – Present",
@@ -20,16 +30,6 @@ const experiences = [
       "Built and nurtured relationships with developers across the Superteam NG community.",
       "Organized and contributed to events, workshops, and community calls to onboard new members.",
       "Created developer-focused content and resources to promote Solana and Web3 adoption.",
-    ],
-  },
-  {
-    role: "Instructor",
-    company: "Toko Academy",
-    duration: "February 2026 – April 2026",
-    details: [
-      "Delivered structured training sessions to students at Toko Academy.",
-      "Mentored learners through hands-on projects and real-world problem solving.",
-      "Contributed to curriculum development and learning material creation.",
     ],
   },
   {
