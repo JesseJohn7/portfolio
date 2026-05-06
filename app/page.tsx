@@ -28,7 +28,7 @@ export default function Home() {
       
       {/* Services Section */}
       <section id="services" aria-label="Services offered by Jesse John">
-        <Services/>
+        {/* <Services/> */}
       </section>
       
       {/* Professional Experience Section */}
