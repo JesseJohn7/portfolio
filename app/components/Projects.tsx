@@ -11,6 +11,12 @@ const projectsData = [
     link: 'https://flexvest.vercel.app/',
   },
   {
+  title: 'Clipio',
+  description: 'Clipio is a video editing platform that allows users to create and share engaging videos with ease.',
+  image: '/images/clipio.png',
+  link: 'https://clipio.vercel.app/',
+},
+  {
   title: 'Sabiskill',
   description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
   image: '/images/sabi.png',
