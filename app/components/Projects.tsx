@@ -14,7 +14,7 @@ const projectsData = [
   title: 'Clipio',
   description: 'Clipio is a video editing platform that allows users to create and share engaging videos with ease.',
   image: '/images/clipio.png',
-  link: 'https://clipio.vercel.app/',
+  link: 'https://clipio-tau.vercel.app/',
 },
   {
   title: 'Sabiskill',
