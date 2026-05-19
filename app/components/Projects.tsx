@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
   title: 'Clipio',
-  description: 'Clipio is a video editing platform that allows users to create and share engaging videos with ease.',
+  description: 'Web app to download videos from TikTok, Instagram, X, Facebook, and YouTube in full quality with an easy-to-use interface',
   image: '/images/clipio.png',
   link: 'https://clipio-tau.vercel.app/',
 },
