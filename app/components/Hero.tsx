@@ -27,7 +27,7 @@ const Hero = () => {
             <p>
               I’m Jesse John with 5+ years of experience specializing in Software Development, Blockchain Development , Open Source development.
             </p>
-            <p>CEO of Flexvest, Self-taught programmer with proven experience in building live projects, and Active tech content creator.</p>
+            <p>CEO of BillionaireTechnologies, Self-taught programmer with proven experience in building live projects, and Active tech content creator.</p>
           </div>
           
           <div className="hero-socials">
