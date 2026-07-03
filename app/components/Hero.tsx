@@ -31,15 +31,18 @@ const Hero = () => {
           </div>
           
           <div className="hero-socials">
-            <motion.a
-              href="https://web.facebook.com/profile.php?id=100085129903427"
-              target="_blank"
-              rel="noreferrer"
-              whileTap={{ scale: 1.1 }}
-              whileHover={{ scale: 0.95 }}
-            >
-              <FbIcon /> 
-            </motion.a>
+              <motion.a
+                href="https://www.linkedin.com/in/jessejohn7/"
+                target="_blank"
+                rel="noreferrer"
+                whileTap={{ scale: 1.1 }}
+                whileHover={{ scale: 0.95 }}
+              >
+                <InIcon />
+              </motion.a> 
+            </div>
+            </motion.div>
+
             <motion.a
               href="https://x.com/Jesse_can_code"
               target="_blank"
@@ -49,6 +52,17 @@ const Hero = () => {
             >
               <TwIcon />
             </motion.a>
+            
+            <motion.a
+              href="https://web.facebook.com/profile.php?id=100085129903427"
+              target="_blank"
+              rel="noreferrer"
+              whileTap={{ scale: 1.1 }}
+              whileHover={{ scale: 0.95 }}
+            >
+              <FbIcon /> 
+            </motion.a>
+            
           {/*  <motion.a
               href="https://www.instagram.com/Jesse John"
               target="_blank"
@@ -58,17 +72,6 @@ const Hero = () => {
             >
               <IgIcon />
             </motion.a> */}
-            <motion.a
-              href="https://www.linkedin.com/in/jessejohn7/"
-              target="_blank"
-              rel="noreferrer"
-              whileTap={{ scale: 1.1 }}
-              whileHover={{ scale: 0.95 }}
-            >
-              <InIcon />
-            </motion.a> 
-          </div>
-        </motion.div>
 
         {/* Image Section */}
         <motion.div
