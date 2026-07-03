@@ -15,6 +15,11 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiSupabase,
+  SiExpress,
+  SiRailway,
+  SiRender,
+  SiMongodb,
+  SiRust,
 } from "react-icons/si";
 import { FaWaveSquare, FaNodeJs, FaPython } from "react-icons/fa"; // 🐍 Added FaPython here
 
@@ -29,14 +34,19 @@ const skills: Skill[] = [
   { name: "React", icon: <SiReact color="#61dafb" size={34} /> },
   { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
   { name: "Node.js", icon: <FaNodeJs color="#68A063" size={34} /> },
+  { name: "Express.js", icon: <SiExpress color="#ffffff" size={34} /> },
   { name: "Python", icon: <FaPython color="#3776AB" size={34} /> }, // 🐍 Added Python skill
+  { name: "Rust", icon: <SiRust color="#ffffff" size={34} /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
   { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
   { name: "GitHub", icon: <SiGithub color="#ffffff" size={34} /> },
+  { name: "MongoDB", icon: <SiMongodb color="#47A248" size={34} /> },
   { name: "Firebase", icon: <SiFirebase color="#FFA000" size={34} /> },
   { name: "Supabase", icon: <SiSupabase color="#3ECF8E" size={34} /> },
   { name: "Web3.js", icon: <SiWeb3Dotjs color="#f16822" size={34} /> },
   { name: "Vercel", icon: <SiVercel color="#ffffff" size={34} /> },
+  { name: "Railway", icon: <SiRailway color="#0B0D0E" size={34} /> },
+  { name: "Render", icon: <SiRender color="#46E3B7" size={34} /> },
   { name: "Framer Motion", icon: <SiFramer color="#0055ff" size={34} /> },
   { name: "Clerk", icon: <SiClerk color="#0a84ff" size={34} /> },
   { name: "GSAP", icon: <FaWaveSquare color="#88ce02" size={34} /> },
