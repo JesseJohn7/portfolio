@@ -3,6 +3,17 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Core Contributor",
+    company: "Drips Wave (Remote)",
+    duration: "May 2026 – Present",
+    details: [
+      "Contribute to open-source Rust/Soroban smart contract codebases across multiple organizations as part of the Drips Wave program.",
+      "Debug and resolve Rust build and CI/CD pipeline issues, ensuring GitHub Actions workflows pass reliably across contributed repositories.",
+      "Implement features and fixes for issues raised by partner organizations, following full contribution workflows including forking, branching, and pull requests.",
+      "Collaborate remotely with maintainers to review, test, and merge contributions into production codebases.",
+    ],
+  },
+  {
     role: "IT Professional",
     company: "Toko Academy",
     duration: "February 2026 – April 2026",
