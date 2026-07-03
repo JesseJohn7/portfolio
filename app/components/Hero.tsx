@@ -29,19 +29,17 @@ const Hero = () => {
             </p>
             <p>CEO of BillionaireTechnologies, Self-taught programmer with proven experience in building live projects, and Active tech content creator.</p>
           </div>
-          
+
           <div className="hero-socials">
-              <motion.a
-                href="https://www.linkedin.com/in/jessejohn7/"
-                target="_blank"
-                rel="noreferrer"
-                whileTap={{ scale: 1.1 }}
-                whileHover={{ scale: 0.95 }}
-              >
-                <InIcon />
-              </motion.a> 
-            </div>
-            </motion.div>
+            <motion.a
+              href="https://www.linkedin.com/in/jessejohn7/"
+              target="_blank"
+              rel="noreferrer"
+              whileTap={{ scale: 1.1 }}
+              whileHover={{ scale: 0.95 }}
+            >
+              <InIcon />
+            </motion.a>
 
             <motion.a
               href="https://x.com/Jesse_can_code"
@@ -52,7 +50,7 @@ const Hero = () => {
             >
               <TwIcon />
             </motion.a>
-            
+
             <motion.a
               href="https://web.facebook.com/profile.php?id=100085129903427"
               target="_blank"
@@ -60,10 +58,10 @@ const Hero = () => {
               whileTap={{ scale: 1.1 }}
               whileHover={{ scale: 0.95 }}
             >
-              <FbIcon /> 
+              <FbIcon />
             </motion.a>
-            
-          {/*  <motion.a
+
+            {/*  <motion.a
               href="https://www.instagram.com/Jesse John"
               target="_blank"
               rel="noreferrer"
@@ -72,6 +70,8 @@ const Hero = () => {
             >
               <IgIcon />
             </motion.a> */}
+          </div>
+        </motion.div>
 
         {/* Image Section */}
         <motion.div
@@ -96,6 +96,5 @@ const Hero = () => {
     </section>
   );
 };
-
 
 export default Hero;
