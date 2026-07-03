@@ -58,15 +58,15 @@ const Hero = () => {
             >
               <IgIcon />
             </motion.a> */}
-          {/*  <motion.a
-              href="https://ng.linkedin.com/in/JesseJohn"
+            <motion.a
+              href=" https://www.linkedin.com/in/jessejohn7/"
               target="_blank"
               rel="noreferrer"
               whileTap={{ scale: 1.1 }}
               whileHover={{ scale: 0.95 }}
             >
-              <InIcon />
-            </motion.a> */}
+              {/* <InIcon /> */}
+            </motion.a> 
           </div>
         </motion.div>
 
