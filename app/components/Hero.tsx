@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
           <h1>
-            100x Software
+       Software
           </h1>
           <h2>Developer.</h2>
           <p className="sub-text">
