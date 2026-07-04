@@ -7,7 +7,7 @@ const Navbar = () => {
     <header className="navbar">
       <nav>
         <Link href="/" className="navbar-logo">
-          Jesse John
+          Billionaire Developer
         </Link>
         <Link
           href="https://github.com/JesseJohn7"
