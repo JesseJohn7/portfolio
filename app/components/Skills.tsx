@@ -21,7 +21,7 @@ import {
   SiMongodb,
   SiRust,
 } from "react-icons/si";
-import { FaWaveSquare, FaNodeJs, FaPython } from "react-icons/fa"; // 🐍 Added FaPython here
+import { FaWaveSquare, FaNodeJs, FaPython } from "react-icons/fa";
 
 interface Skill {
   name: string;
@@ -35,7 +35,7 @@ const skills: Skill[] = [
   { name: "Next.js", icon: <SiNextdotjs color="#ffffff" size={34} /> },
   { name: "Node.js", icon: <FaNodeJs color="#68A063" size={34} /> },
   { name: "Express.js", icon: <SiExpress color="#ffffff" size={34} /> },
-  { name: "Python", icon: <FaPython color="#3776AB" size={34} /> }, // 🐍 Added Python skill
+  { name: "Python", icon: <FaPython color="#3776AB" size={34} /> },
   { name: "Rust", icon: <SiRust color="#ffffff" size={34} /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss color="#38bdf8" size={34} /> },
   { name: "Git", icon: <SiGit color="#f05032" size={34} /> },
@@ -54,10 +54,10 @@ const skills: Skill[] = [
 
 const Skill: React.FC = () => {
   return (
-    <section className="skills-section">
-      <div className="skills-container">
+    <section className="overflow-hidden bg-[linear-gradient(180deg,#0b0710_0%,#0f0b16_100%)] px-5 py-[70px] font-[Inter,sans-serif] text-[#f8fafc]">
+      <div className="mx-auto max-w-[1100px] text-left">
         <motion.h2
-          className="skills-heading"
+          className="mb-2 text-[1.6rem] font-black tracking-[0.5px] sm:text-[2rem]"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -67,7 +67,7 @@ const Skill: React.FC = () => {
         </motion.h2>
 
         <motion.p
-          className="skills-sub"
+          className="mb-10 text-sm text-[#94a3b8]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
@@ -76,19 +76,21 @@ const Skill: React.FC = () => {
           Technologies and tools I work with.
         </motion.p>
 
-        <div className="skills-grid">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
-              className="skill-card"
+              className="group cursor-default rounded-[14px] border border-white/5 bg-white/[0.03] p-4 text-left shadow-[0_5px_20px_rgba(0,0,0,0.4)] transition-all duration-300 hover:border-blue-400/40 hover:bg-white/5 sm:p-[18px]"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.05 }}
               viewport={{ once: true }}
             >
-              <div className="skill-header">
-                <div className="skill-icon">{skill.icon}</div>
+              <div className="flex items-center gap-3.5">
+                <div className="h-7 w-7 object-contain transition-transform duration-300 group-hover:rotate-[10deg] group-hover:scale-110 sm:h-[34px] sm:w-[34px]">
+                  {skill.icon}
+                </div>
                 <h3>{skill.name}</h3>
               </div>
             </motion.div>

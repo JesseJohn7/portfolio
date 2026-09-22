@@ -78,37 +78,43 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="experience" id="experience">
-      <motion.h2
-        className="experience-heading"
-        initial={{ opacity: 0, x: -40 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        Professional Experience
-      </motion.h2>
+    <section className="w-full overflow-x-hidden bg-[#0b040c] px-5 pb-16 pt-8 text-[#f2f2f2] md:px-6 md:pb-24 md:pt-12" id="experience">
+      <div className="mx-auto max-w-[900px]">
+        <motion.h2
+          className="mb-8 text-left text-[26px] font-black text-white md:mb-12 md:text-[2rem]"
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          Professional Experience
+        </motion.h2>
 
-      <div className="experience-list">
-        {experiences.map((exp, index) => (
-          <motion.div
-            className="experience-item"
-            key={index}
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-          >
-            <div className="experience-meta">
-              <span className="experience-duration">{exp.duration}</span>
-              <h3 className="experience-role">{exp.role}</h3>
-              <h4 className="experience-company">{exp.company}</h4>
-            </div>
-            <ul className="experience-details">
-              {exp.details.map((line, i) => (
-                <li key={i}>{line}</li>
-              ))}
-            </ul>
-          </motion.div>
-        ))}
+        <div className="flex flex-col gap-10 border-l-2 border-white/10 pl-6 md:gap-12 md:pl-8">
+          {experiences.map((exp, index) => (
+            <motion.div
+              className="group relative w-full min-w-0 pl-4 before:absolute before:-left-[1.9rem] before:top-[0.6rem] before:h-2.5 before:w-2.5 before:rounded-full before:bg-[#bf8441] before:shadow-[0_0_12px_rgba(4,19,36,0.6)] before:content-['']"
+              key={index}
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+            >
+              <div className="mb-3">
+                <span className="mb-1 block text-sm text-[#aaa]">{exp.duration}</span>
+                <h3 className="mb-0.5 break-words text-[1.1rem] font-semibold text-white transition-colors duration-300 group-hover:text-[#e4eaf1] md:text-[1.3rem]">
+                  {exp.role}
+                </h3>
+                <h4 className="mb-3 break-words text-base text-[#bf8441]">{exp.company}</h4>
+              </div>
+              <ul className="list-none space-y-1.5 pl-0">
+                {exp.details.map((line, i) => (
+                  <li key={i} className="break-words text-[0.95rem] leading-relaxed text-[#d4d4d4]">
+                    {line}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );

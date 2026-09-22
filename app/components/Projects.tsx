@@ -11,35 +11,35 @@ const projectsData = [
     link: 'https://flexvest.vercel.app/',
   },
   {
-  title: 'Clipio',
-  description: 'Web app to download videos from TikTok, Instagram, X, Facebook, and YouTube in full quality with an easy-to-use interface',
-  image: '/images/clipio.png',
-  link: 'https://clipio-tau.vercel.app/',
-},
+    title: 'Clipio',
+    description: 'Web app to download videos from TikTok, Instagram, X, Facebook, and YouTube in full quality with an easy-to-use interface',
+    image: '/images/clipio.png',
+    link: 'https://clipio-tau.vercel.app/',
+  },
   {
-  title: 'Sabiskill',
-  description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
-  image: '/images/sabi.png',
-  link: 'https://sabiskill.vercel.app/',
-},
+    title: 'Sabiskill',
+    description: 'Sabiskill helps graduates home and abroad learn real-world skills through curated YouTube resources, detailed roadmaps, and tools to master or level up any skill.',
+    image: '/images/sabi.png',
+    link: 'https://sabiskill.vercel.app/',
+  },
   {
-  title: 'Readify',
-  description: 'An Ai Powered Readme Generator that creates comprehensive README files for GitHub projects based on user input and project details.',
-  image: '/images/readify.png',
-  link: 'https://readify-delta.vercel.app/',
-},
-{
-  title: 'Mojito',
-  description: 'Mjito Website with cocktail recipes and ingredients.',
-  image: '/images/Mojito.png',
-  link: 'https://mojito-dusky.vercel.app/',
-},
-{
-  title: 'Gabriel Adikwu Chambers',
-  description: 'Website for a law firm based in Yola, Nigeria.',
-  image: '/images/adikwu.png',
-  link: 'https://www.gabrieladikwuchambers.com/',
-},
+    title: 'Readify',
+    description: 'An Ai Powered Readme Generator that creates comprehensive README files for GitHub projects based on user input and project details.',
+    image: '/images/readify.png',
+    link: 'https://readify-delta.vercel.app/',
+  },
+  {
+    title: 'Mojito',
+    description: 'Mjito Website with cocktail recipes and ingredients.',
+    image: '/images/Mojito.png',
+    link: 'https://mojito-dusky.vercel.app/',
+  },
+  {
+    title: 'Gabriel Adikwu Chambers',
+    description: 'Website for a law firm based in Yola, Nigeria.',
+    image: '/images/adikwu.png',
+    link: 'https://www.gabrieladikwuchambers.com/',
+  },
   {
     title: 'Moviemate',
     description: 'A movie discovery app that allows users to search for movies, view details, and get recommendations based on their preferences.',
@@ -98,20 +98,20 @@ const projectsData = [
 
 export default function Projects() {
   return (
-    <section className="projects-section" id="projects">
+    <section className="mx-auto w-full max-w-[1300px] bg-[#0b040c] px-4 py-12 text-white sm:px-6 sm:py-16 md:px-8 md:py-24" id="projects">
       {/* Header - show immediately */}
       <motion.div
-        className="projects-header"
+        className="mb-4"
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0 }}
       >
-        <h2>Projects</h2>
+        <h2 className="mb-4 text-[clamp(28px,5vw,35px)] font-black text-white">Projects</h2>
       </motion.div>
 
       {/* Projects Grid - visible instantly */}
       <motion.div
-        className="projects-grid"
+        className="grid grid-cols-1 gap-6 md:grid-cols-[repeat(auto-fit,minmax(280px,1fr))] md:gap-6 lg:gap-8"
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0 }}
@@ -119,32 +119,32 @@ export default function Projects() {
         {projectsData.map((project, index) => (
           <motion.div
             key={index}
-            className="project-card"
+            className="group flex cursor-pointer flex-col overflow-hidden rounded-xl bg-white/10 text-white transition-all duration-100 hover:-translate-y-1.5 hover:bg-[#d46c0a]/25"
             initial={{ opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0 }}
           >
-            <div className="project-image relative w-full h-56 sm:h-64 md:h-72 overflow-hidden rounded-2xl shadow-md">
+            <div className="relative h-40 w-full overflow-hidden sm:h-[180px] lg:h-[200px]">
               <Image
                 src={project.image}
                 alt={project.title}
                 fill
                 sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
                 style={{ objectFit: 'cover' }}
-                className="project-img"
-                priority // ✅ ensures images load instantly, helps mobile render properly
+                priority
               />
             </div>
-            <div className="project-content mt-4">
-              <h3 className="font-semibold text-lg">{project.title}</h3>
-              <p className="text-sm text-gray-600 mt-2">{project.description}</p>
+            <div className="flex flex-col gap-3 p-6">
+              <h3 className="text-lg font-bold text-white sm:text-xl">{project.title}</h3>
+              <p className="text-sm leading-normal text-[#f0f0f0] sm:text-[0.95rem]">{project.description}</p>
               <a
                 href={project.link}
                 target="_blank"
                 rel="noreferrer"
-                className="project-link inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mt-3 transition-colors duration-200"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#ffd700] transition-all duration-300 hover:translate-x-1 hover:text-[#ffb200] sm:text-base"
               >
-                View Project <FiArrowRight className="arrow-icon" />
+                View Project{' '}
+                <FiArrowRight className="text-base transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </div>
           </motion.div>
