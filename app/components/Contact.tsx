@@ -39,7 +39,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FaGithub /> GitHub
+          <FaGithub /> {/* GitHub */}
         </a>
         <a
           href="https://x.com/Jesse_can_code"
@@ -47,7 +47,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FaTwitter /> Twitter
+          <FaTwitter />{/*  Twitter */}
         </a>
         <a
           href="https://wa.me/2348038509708"
@@ -55,7 +55,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="social-link"
         >
-          <FaWhatsapp /> WhatsApp
+          <FaWhatsapp />{/*  WhatsApp */}
         </a>
       </motion.div>
 
