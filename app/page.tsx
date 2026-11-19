@@ -109,7 +109,7 @@ export default function Home() {
             </motion.div>
           </div>
 
-          <motion.div initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.4, duration: 0.8 }} className="relative mx-auto w-72 sm:w-80">
+          <motion.div initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.4, duration: 0.8 }} className="relative order-1 mx-auto mb-6 w-72 sm:w-80 md:order-2 md:mb-0">
             <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[2rem] border-2 border-violet-600" />
             <motion.div whileHover={{ rotate: -2, scale: 1.02 }} className="relative overflow-hidden rounded-[2rem] border border-neutral-200 bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900">
               {/* eslint-disable-next-line @next/next/no-img-element */}
