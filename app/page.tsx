@@ -132,7 +132,7 @@ export default function Home() {
               <p className="mt-1 text-sm text-neutral-500">{s.label}</p>
             </Reveal>
           ))}
-        </div>
+        </div> 
       </section> */}
 
       {/* PROJECTS */}
