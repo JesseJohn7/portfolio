@@ -63,7 +63,8 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center px-6 pt-28">
         <div className="grid-bg absolute inset-0 -z-10" />
         <motion.div style={{ y: heroY, opacity: heroOpacity }} className="mx-auto grid w-full max-w-6xl items-center gap-14 md:grid-cols-[1.2fr_1fr]">
-          <div>
+          {/* TEXT: second on mobile, first on desktop */}
+          <div className="order-2 md:order-1">
             <motion.a
               href="#projects" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
               className="mb-6 inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-3 py-1 text-sm dark:border-neutral-800 dark:bg-neutral-900"
@@ -80,7 +81,7 @@ export default function Home() {
                   <motion.span
                     initial={{ y: "110%" }} animate={{ y: 0 }}
                     transition={{ delay: 0.3 + i * 0.15, duration: 0.7, ease: [0.21, 0.47, 0.32, 0.98] }}
-                    className={`block ${i === 1 ? "text-violet-600" : ""}`}
+                    className="block"
                   >
                     {w}
                   </motion.span>
@@ -109,7 +110,11 @@ export default function Home() {
             </motion.div>
           </div>
 
-          <motion.div initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.4, duration: 0.8 }} className="relative order-1 mx-auto mb-6 w-72 sm:w-80 md:order-2 md:mb-0">
+          {/* IMAGE: first on mobile, second on desktop */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.4, duration: 0.8 }}
+            className="relative order-1 mx-auto mb-6 w-72 sm:w-80 md:order-2 md:mb-0"
+          >
             <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[2rem] border-2 border-violet-600" />
             <motion.div whileHover={{ rotate: -2, scale: 1.02 }} className="relative overflow-hidden rounded-[2rem] border border-neutral-200 bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900">
               {/* eslint-disable-next-line @next/next/no-img-element */}
