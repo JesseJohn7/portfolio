@@ -29,8 +29,8 @@ const headline = ["Software", "Developer."];
 export default function Home() {
   const { scrollYProgress, scrollY } = useScroll();
   const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 30 });
-  const heroY = useTransform(scrollY, [0, 500], [0, 100]);
-  const heroOpacity = useTransform(scrollY, [0, 500], [1, 0.3]);
+  
+  
 
   return (
     <main className="relative overflow-x-clip">
@@ -62,7 +62,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative flex min-h-screen items-center px-6 pt-28">
         <div className="grid-bg absolute inset-0 -z-10" />
-        <motion.div style={{ y: heroY, opacity: heroOpacity }} className="mx-auto grid w-full max-w-6xl items-center gap-14 md:grid-cols-[1.2fr_1fr]">
+        <motion.div className="mx-auto grid w-full max-w-6xl items-center gap-14 md:grid-cols-[1.2fr_1fr]">
           {/* TEXT: second on mobile, first on desktop */}
           <div className="order-2 md:order-1">
             <motion.a
