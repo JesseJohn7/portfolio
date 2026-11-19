@@ -43,7 +43,7 @@ export default function Home() {
         className="fixed inset-x-0 top-4 z-50 mx-auto flex w-[92%] max-w-4xl items-center justify-between rounded-full border border-neutral-200 bg-white/80 px-4 py-2 backdrop-blur-xl dark:border-neutral-800 dark:bg-neutral-950/80"
       >
         <a href="#" className="font-bold tracking-tight">
-          billionaire<span className="text-violet-600">dev</span>
+          billionairedev
         </a>
         <nav className="hidden gap-7 text-sm text-neutral-600 dark:text-neutral-400 md:flex">
           {nav.map((n) => (
